@@ -6,6 +6,7 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <Message /> */}
       {/* <Counter /> */}
       {/* <FunctionClick /> */}
-      <EventBind /> 
+      {/* <EventBind />  */}
+      <ParentComponent />
     </>
   );
 }
